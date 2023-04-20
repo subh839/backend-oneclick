@@ -54,7 +54,7 @@ app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(swaggerDocs));
 app.use(express.json());
 app.use("/pem", pemRoutes);
 app.use("/customer", customerRoutes);
-
+app.use("/shop", shopRoutes);
 app.use("/admin", adminRouter);
 app.use("/payment", paymentRoutes);
 
