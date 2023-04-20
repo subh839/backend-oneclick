@@ -10,7 +10,7 @@ import paymentRoutes from "./routes/payment.js";
 //
 import pemRoutes from "./routes/worker.js";
 import customerRoutes from "./routes/customer.js";
-
+import shopRoutes from "./routes/shop.js";
 import authRoute from "./routes/auth.js";
 import userRoute from "./routes/users.js";
 // Morgan part--
